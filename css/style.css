@@ -9,6 +9,7 @@ body{
     margin: 0;
     letter-spacing: 0.1rem; /* 1px */
     line-height: 1.6;
+    background-color: var(--bgcolor-theme);
 }
 h1,h2, p, figure, ul{
     margin: 0;
@@ -18,20 +19,10 @@ h1,h2, p, figure, ul{
 {
   box-sizing: border-box;  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ****************************************
 SECTION 2 : THEME CSS
 ******************************************* */
+:root{
+    --bgcolor-theme: #636e72;
+    
+}
