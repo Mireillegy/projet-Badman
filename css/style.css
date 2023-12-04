@@ -24,7 +24,7 @@ h1,h2, p, figure, ul{
 SECTION 2 : THEME CSS
 ******************************************* */
 :root{
-    --bgcolor-theme: #636e72;
+    --bgcolor-theme: #070707;
     --bgcolor-header: #222;
     --bgcolor-list: rgba(223,230,233,1;0);
     --letter-color:#fff;
@@ -44,7 +44,17 @@ header > h1{
 }
 /* figure */
 figure{
+    max-width: 70rem;
+    margin:0 auto;
+    border: solid -1rem #f5ebeb;
+    padding: 1rem;
+    background-color: var(--letter-color);
     display: flex, justify;
     align-items: center;
     content: center;
+
 }
+figure img{
+   display: inline-block;
+   width: 100%;
+} 
