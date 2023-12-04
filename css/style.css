@@ -26,7 +26,7 @@ SECTION 2 : THEME CSS
 :root{
     --bgcolor-theme: #070707;
     --bgcolor-header: #222;
-    --bgcolor-list: rgba(223,230,233,1;0);
+    --bgcolor-list: rgba(223,230,233,1.0);
     --letter-color:#fff;
     --letter-color-default: #222;
     
@@ -58,13 +58,13 @@ figure img{
    display: inline-block;
    width: 100%;
 } 
-figure fig caption ul{
+figure figcaption ul{
     line-height: 6rem;
 }
 figure figcaption ul.list-movie li{
     padding: 0  .5rem;
 }
-figure figcaption ul, li:nth-child(2n + 1) { /* 1sur 2 à partir du 1er*/
+figure figcaption ul.list-movie li:nth-child(2n + 2) { /* 1sur 2 à partir du 1er*/
 background-color: var(--bgcolor-list);
 }
 details summary{
